@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+.box {
+    display: grid;
+    height:cal(100vh/10);
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 1vh;
+}
+
+.total {
+    row-gap: 1vh;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+
+.box div{
+    /* display: grid; */
+    grid-template-columns: repeat(10, 1fr);
+}
+/*---------------------------------*/
+.container1 div {
+    background-color: cadetblue;
+}
+
+.container1 div:nth-child(2n) {
+    opacity: .3;
+}
+
+.container2 div {
+    background-color: cadetblue;
+}
+
+.container2 div:nth-child(2n-1) {
+    opacity: .3;
+}
+
+
